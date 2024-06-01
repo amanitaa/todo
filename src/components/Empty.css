@@ -1,0 +1,10 @@
+.empty {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.empty p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}

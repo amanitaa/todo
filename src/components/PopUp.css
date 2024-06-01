@@ -1,0 +1,59 @@
+.pop-up {
+    z-index: 1;
+    position: fixed;
+    inset: 0;
+    background-color: #00000050;
+    border-radius: 5px;
+}
+
+.pop-up>div {
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+    gap: 5px;
+}
+
+.pop-up>div p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pop-up>div input {
+    margin-top: 20px;
+}
+
+.button-group {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cancel {
+    width: 110px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #6C63FF;
+    background-color: white;
+    color: #6C63FF;
+    font-weight: bold;
+}
+
+.apply {
+    width: 110px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #6C63FF;
+    background-color: #6C63FF;
+    color: white;
+    font-weight: bold;
+}

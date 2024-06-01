@@ -1,0 +1,38 @@
+.todo {
+    border-bottom: 1px solid #6C63FF;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.todo-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.todo-container span {
+    font-weight: bold;
+}
+
+.todo-body {
+    width: 26px;
+    height: 26px;
+    accent-color: #6C63FF;
+}
+
+.todo-footer {
+    display: none;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.todo:hover .todo-footer {
+    display: flex;
+}
